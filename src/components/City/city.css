@@ -1,0 +1,42 @@
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .city {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .city img {
+    width: 165px;
+    height: 165px;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+  }
+  
+  .city.info {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .city.info h2 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .city.info p {
+    margin-bottom: 10px;
+  }
+  
+  .city.info p:last-child {
+    margin-bottom: 0;
+  }
